@@ -49,13 +49,9 @@ Performed in `Swiggy.ipynb`:
 
 Implemented in `Swiggy.ipynb`:
 
-### 🔹 Option A: K-Means Clustering
+### 🔹 K-Means Clustering
 - Clustered encoded restaurants.
 - For user input, determined the nearest cluster and returned restaurants from it.
-
-### 🔹 Option B: Cosine Similarity
-- Compared the user input vector to the dataset.
-- Recommended most similar restaurants based on cosine scores.
 
 Recommendations are mapped back to the cleaned dataset (`cleaned_data.csv`) for display.
 
@@ -71,7 +67,7 @@ Developed in `App.py`, the app provides:
   - Sliders: Rating, Cost, Rating_count
 
 - **Output**:  
-  - Top N recommended restaurants with name, rating, cuisine, city, rating_count and cost
+  - Top N recommended restaurants with name, rating, cuisine, city, rating_count, and cost
 
 ### ▶️ To Run the App:
 ```bash
